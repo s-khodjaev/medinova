@@ -1,7 +1,25 @@
+/* Base styles */
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
+  overflow: auto;
+}
+
 /* Flex & Grid */
 
 .flex {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
