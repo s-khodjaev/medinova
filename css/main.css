@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* CSS Variables */
 
 :root {
@@ -72,12 +74,13 @@ img {
 /* Navbar */
 
 .navbar {
-  height: 100px;
+  height: 80px;
   padding: 20px;
 }
 
 .navbar h1 {
   text-transform: uppercase;
+  color: var(--primary-color);
 }
 
 .navbar ul {
@@ -87,9 +90,16 @@ img {
 
 .navbar a {
   padding: 10px;
-  margin: 0 5px;
+  margin: 0 7px;
   font-size: 1.2rem;
   font-weight: 700;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: var(--primary-color);
+  border-bottom: 3px solid var(--primary-color);
+  transition: all 0.2s ease-in;
 }
 
 .navbar .flex {
@@ -99,6 +109,26 @@ img {
 /* Showcase */
 
 .showcase {
-  height: 500px;
+  font-family: 'Roboto', sans-serif;
+  height: 550px;
   background: url('../img/hero.jpg') no-repeat center top/cover;
+  color: #fff;
+}
+
+.showcase .grid {
+  grid-template-columns: 3fr 1fr;
+}
+
+.showcase-text h3 {
+  color: var(--primary-color);
+  text-transform: uppercase;
+  border-bottom: 4px solid #ddd;
+  width: 250px;
+  line-height: 1.8;
+}
+
+.showcase-text h1 {
+  font-size: calc(1.625rem + 3.5vw);
+  font-weight: 700;
+  line-height: 1.2;
 }
