@@ -7,6 +7,10 @@
   overflow: auto;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* Heading Styles */
 
 .heading-title {
@@ -16,7 +20,8 @@
 
 .heading-text {
   color: #777;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  line-height: 1.4;
 }
 
 /* Buttons */
