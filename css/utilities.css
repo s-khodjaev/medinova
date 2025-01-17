@@ -128,6 +128,23 @@
   padding: 4rem;
 }
 
+/* Backgrounds */
+
+.bg-primary {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
+
+.bg-dark {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+
+.bg-light {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+
 /* Heading styles */
 
 .heading {
@@ -137,6 +154,7 @@
   align-items: center;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
+  margin-bottom: 30px;
 }
 
 .heading-uppertext {
@@ -174,4 +192,18 @@
 
 .grid-3 {
   grid-template-columns: repeat(3, 1fr);
+}
+
+/* Text colors & sizes */
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-dark {
+  color: var(--dark-color);
+}
+
+.text-light {
+  color: var(--light-color);
 }
