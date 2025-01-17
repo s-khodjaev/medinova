@@ -130,19 +130,33 @@
 
 /* Backgrounds */
 
-.bg-primary {
+.bg-primary,
+.btn-primary {
   background-color: var(--primary-color);
   color: var(--light-color);
 }
 
-.bg-dark {
+.bg-dark,
+.btn-dark {
   background-color: var(--dark-color);
   color: var(--light-color);
 }
 
-.bg-light {
+.bg-light,
+.btn-light {
   background-color: var(--light-color);
   color: var(--dark-color);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid var(--light-color);
+}
+
+.btn-outline-dark {
+  background-color: transparent;
+  color: var(--dark-color);
+  border: 1px solid var(--dark-color);
 }
 
 /* Heading styles */
