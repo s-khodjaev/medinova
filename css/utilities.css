@@ -128,6 +128,33 @@
   padding: 4rem;
 }
 
+/* Heading styles */
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.heading-uppertext {
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 4px solid #ddd;
+  width: fit-content;
+}
+
+.heading-title {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--dark-color);
+  letter-spacing: -2px;
+}
+
 /* Flex & Grid */
 
 .flex {
@@ -143,4 +170,8 @@
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
 }
