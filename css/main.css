@@ -203,6 +203,13 @@ img {
   line-height: 1.2;
 }
 
+.appointment .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 .appointment form {
   background-color: var(--light-color);
   display: flex;
@@ -213,9 +220,14 @@ img {
   padding: 30px;
 }
 
-.appointment form .row .form-control {
-  display: inline-block;
-  width: 50%;
+.appointment form .row .form-control input[type='text'],
+.appointment form .row .form-control input[type='email'],
+.appointment form .row .form-control input[type='date'],
+.appointment form .row .form-control input[type='time'],
+.appointment form .row .form-control select {
+  padding: 4px;
+  flex-basis: 50%;
+  margin: 5px;
 }
 
 .appointment form h2 {
