@@ -11,19 +11,6 @@
   text-align: center;
 }
 
-/* Heading Styles */
-
-.heading-title {
-  font-size: 3rem;
-  color: #000;
-}
-
-.heading-text {
-  color: #777;
-  margin-bottom: 20px;
-  line-height: 1.4;
-}
-
 /* Buttons */
 
 .btn {
@@ -185,6 +172,12 @@
   font-weight: 700;
   color: var(--dark-color);
   letter-spacing: -2px;
+}
+
+.heading-text {
+  color: #777;
+  margin-bottom: 20px;
+  line-height: 1.4;
 }
 
 /* Flex & Grid */
