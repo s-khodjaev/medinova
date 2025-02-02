@@ -233,3 +233,42 @@ img {
 .appointment form h2 {
   color: var(--dark-color);
 }
+
+/* Doctors */
+
+.doctor-profiles__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.doctor-profiles__container > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #cfdee8;
+  border-radius: 10px;
+}
+
+.doctor-profiles__container img {
+  width: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.doctor-profiles__container .social-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.doctor-profiles__container .social-icons li i {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+}
